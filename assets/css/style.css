@@ -1,22 +1,11 @@
 .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
-    /* width: 270px;  */
-    display: inline;
-    float: left;
-    position: relative;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 40%;
-    padding: 20px 25px 20px 25px;
-    font-size: 1.5em;
     color: white;
-    font-weight: strong;
 }
 
 .nav-link {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 10px;
     color: #777777;
 }
 
@@ -47,4 +36,5 @@ footer {
     background-color: #666666;
     color: white;
     font-size: x-small;
+    
 }
