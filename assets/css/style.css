@@ -38,3 +38,8 @@ footer {
     font-size: x-small;
     
 }
+
+.btn {
+    background-color: #4aaaa5;
+    border: none;
+}
