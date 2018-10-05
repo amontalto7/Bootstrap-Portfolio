@@ -12,9 +12,11 @@
     <title>Anthony Montalto - About</title>
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Anthony Montalto</a>
+        <div class = "container-fluid">
+    <div class="row justify-content-center">
+    <div class="col-md">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <a class="navbar-brand mb-0 h1" href="#">Anthony Montalto</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,45 +34,41 @@
           </ul>
         </div>
       </nav>
-
+    </div>
+    </div>
       <!-- GRID LAYOUT -->
-      <div class = "container">
         <div class="row mainbackground">
             <!-- Main background area -->
             <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <section class="maincontent">
-                        <h2>About Me</h2>
-                    </section>
-                </div>
-            </div>
-            <div class="row justify-content-center">
                 <!-- Main content area -->
                 <div class="col-md-6">
-                    <section class="maincontent">
-                        <img id="profilepic" src="assets/images/profilepic.jpg" alt="Anthony Montalto">
-                        <p class="maintxt">Born and raised in Queens, NY, I've taken an interest in technology at an early age. In 5th grade, I took my first programming classes, learning Logo and Basic. I have about 17 years of experience in Quality Assurance, Automation testing, and coding. I'm currently working as a lead at SiriusXM on the Selenium Automation Team.</p>
-                        <p class="maintxt">I'm currently taking a full stack web development boot camp at Columbia University in order to further my knowledge and skillset and get up to date on the latest technologies, best practices, and toolsets.</p>
-                        <p class="maintxt">An avid traveler, comic book nerd, tech geek, foodie, and aspiring digital nomad, I'm excited for all the possibilities that will open up as this journey continues.</p>            
-                    </section>    
+
+                        <div class="card mt-5 mb-5">
+                                <!-- <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"> -->
+                                <div class="card-body">
+                                  <h4 class="card-title">About Me</h4>
+                                  <img class="rounded float-left m-2" src="assets/images/profilepic.jpg" alt="Anthony Montalto">
+                                  <p class="card-text">Born and raised in Queens, NY, I've taken an interest in technology at an early age. In 5th grade, I took my first programming classes, learning Logo and Basic. I have about 17 years of experience in Quality Assurance, Automation testing, and coding. I'm currently working as a lead at SiriusXM on the Selenium Automation Team.</p>
+                                  <p class="card-text">I'm currently taking a full stack web development boot camp at Columbia University in order to further my knowledge and skillset and get up to date on the latest technologies, best practices, and toolsets.</p>
+                                  <p class="card-text">An avid traveler, comic book nerd, tech geek, foodie, and aspiring digital nomad, I'm excited for all the possibilities that will open up as this journey continues.</p>            
+                                </div>
+                              </div>
                 </div>
-                
             </div>
-            
-
         </div>
- 
-      </div>
-      <div class="container-fluid">
-            <div class="row">
-                <footer class="portfoliofooter">
-                    <div class="col-md-12">
-                        Footer
-                    </div>
+        <div class="row">
+                <div class="col-md">
+                <!-- Footer -->
+                <footer class="page-footer font-small special-color-dark">
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">Copyright &copy; 2018</div>
                 </footer>
-            </div>        
+                    
+                </div>
+        </div>       
       </div>
-
+             
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
