@@ -1,7 +1,7 @@
 .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
-    color: white;
+    color: white!important;
 }
 
 .nav-link {
